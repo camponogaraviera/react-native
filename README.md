@@ -15,6 +15,7 @@
 - [Module 03: Managing Packages](03_packages.md)
 - [Module 04: Best Practices - Tooling](04_best_practices.md)
 - [Module 05: Intro to React Native](05_intro.md)
+- [Module 06: React Patterns](06_react_patterns.md)
 - [vscode-plugins](vscode-plugins.md)
 
 # Run example project

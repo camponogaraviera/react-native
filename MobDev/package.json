@@ -20,7 +20,7 @@
     "expo-device": "~6.0.2",
     "expo-notifications": "~0.28.9",
     "expo-status-bar": "~1.12.1",
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "install": "^0.13.0",
     "react": "18.2.0",
     "react-native": "0.74.3",

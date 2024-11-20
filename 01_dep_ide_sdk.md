@@ -129,4 +129,13 @@ source ~/.bashrc
 adb --version
 ```
 
+7. Simulating:
+
+- Open `Device Manager` in `Android Studio Ladybug` and then `Create Virtual Device`. Select the screen type and the Android version.
+
+- Run your app from your favorite IDE (I use VSCode) while Android Studio runs the virtual device:
+```
+yarn android
+```
+
 - Alternative: use Ubuntu Software Center.

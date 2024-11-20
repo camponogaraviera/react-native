@@ -120,4 +120,13 @@ cd android-studio/bin && ./studio.sh
 sudo dpkg -r <package_name>.deb
 ```
 
+6. Adding to Path Variables:
+
+```bash
+export ANDROID_HOME=/home/lucas/Android/Sdk
+export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
+source ~/.bashrc
+adb --version
+```
+
 - Alternative: use Ubuntu Software Center.

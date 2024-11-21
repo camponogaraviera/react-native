@@ -138,4 +138,11 @@ adb --version
 yarn android
 ```
 
+8. Create Desktop Icon
+
+```
+nano ~/.local/share/applications/android-studio.desktop
+update-desktop-database ~/.local/share/applications
+```
+
 - Alternative: use Ubuntu Software Center.

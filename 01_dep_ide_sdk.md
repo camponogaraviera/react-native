@@ -138,7 +138,7 @@ adb --version
 yarn android
 ```
 
-8. Create Desktop Icon
+8. Create Desktop Icon:
 
 ```
 nano ~/.local/share/applications/android-studio.desktop

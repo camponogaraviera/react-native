@@ -142,6 +142,21 @@ yarn android
 
 ```
 nano ~/.local/share/applications/android-studio.desktop
+```
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Android Studio
+Icon=/home/lucas/android-studio/bin/studio.png
+Exec=bash -c "/home/lucas/android-studio/bin/studio.sh"
+Comment=Android Studio IDE
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-studio
+```
+```
+chmod +x ~/.local/share/applications/android-studio.desktop
 update-desktop-database ~/.local/share/applications
 ```
 

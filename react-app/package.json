@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "packageManager": "yarn@4.14.1",
+  "dependencies": {
+    "expo": "^55.0.17"
+  }
+}

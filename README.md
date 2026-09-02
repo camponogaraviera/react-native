@@ -33,7 +33,7 @@ cd expo-app && yarn && yarn workspace client start
 
 ---
 
-# Production Applications
+# Production-Grade Applications
 
 - [Social Eats: Social Food Discovery Mobile App with 3D Interactivity](https://github.com/camponogaraviera/social-eats)
   - Tech Stack: Modern JavaScript (ES6+), React Native, React Three Fiber, React Three Drei, Node.js, Express.js, DynamoDB, GitHub Actions, Docker, and AWS.

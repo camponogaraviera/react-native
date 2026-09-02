@@ -21,17 +21,15 @@
 
 - Use a single package manager for consistency. Use either `yarn` (recommended) or `npm` to install packages during the development cycle.
 - Pin Node.js to an LTS version.
-- When using `yarn.lock`, there is no need to keep the `package-lock.json`.
-- Do not `git ignore` the `yarn.lock` file and the `.yarn/` folder (from Yarn V2+ a.k.a Berry), as they ensure that the exact versions of dependencies are installed, even if the versions in `package.json` are defined using version ranges (such as `^` or `~`).
+- Do not `git ignore` the `yarn.lock` file and the `.yarn/` folder, as they ensure that the exact versions of dependencies are installed, even if the versions in `package.json` are defined using version ranges (such as `^` or `~`).
 - Store environment variables in dedicated files and never commit secrets.
 
 # Code Structure
 
 - Organize by feature when the app grows (feature-first folders).
 - Keep UI components separate from data fetching and side effects, focusing purely on rendering UI based on props.
-- Implement the component logic in a separate module, usually via custom hooks.
-- Use hooks for shared logic between multiple components instead of duplicating code.
-- Implement API calls, business logic, and external integrations under the` services/` folder.
+- Implement API calls, business logic, and external integrations under a separate folder (e.g., `services/`).
+- Use custom hooks for shared logic between multiple components instead of duplicating code.
 - Use absolute imports over relative imports and well-defined aliases to reduce long chains.
 
 # Components

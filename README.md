@@ -16,6 +16,7 @@
 - [Module 07: Libraries and SDK Modules](notebooks/libs_modules.md)
 - [Module 08: Tooling - Code Formatter and Linter](notebooks/tooling.md)
 - [Module 09: Best Practices](notebooks/best_practices.md)
+- [Module 10: Deployment](notebooks/deployment.md)
 - [Interview Questions](notebooks/interview-questions.md)
 - [References](#ref)
 

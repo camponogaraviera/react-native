@@ -41,7 +41,7 @@ Yarn is suitable for handling installation and versioning of package dependencie
 - Enter the project folder:
 
 ```bash
-cd react-app
+cd <ProjectName>
 ```
 
 1. Install Corepack
@@ -53,7 +53,7 @@ npm install -g corepack
 2. Install [modern Yarn](https://yarnpkg.com/getting-started/install) V2+ with Corepack (shipped by default with Node.js):
 
 ```bash
-corepack enable && yarn set version stable && yarn install
+corepack enable && yarn set version stable
 ```
 
 3. Check installed version:
